@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7F45D351D4070860093C8DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F45D341D4070860093C8DC /* AppDelegate.swift */; };
+		D7F45D371D4070860093C8DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F45D361D4070860093C8DC /* ViewController.swift */; };
+		D7F45D3A1D4070860093C8DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F45D381D4070860093C8DC /* Main.storyboard */; };
+		D7F45D3C1D4070860093C8DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7F45D3B1D4070860093C8DC /* Assets.xcassets */; };
+		D7F45D3F1D4070860093C8DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F45D3D1D4070860093C8DC /* LaunchScreen.storyboard */; };
+		D7F45D4A1D4070860093C8DC /* RGBSlidersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F45D491D4070860093C8DC /* RGBSlidersTests.swift */; };
+		D7F45D551D4070860093C8DC /* RGBSlidersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F45D541D4070860093C8DC /* RGBSlidersUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7F45D461D4070860093C8DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7F45D291D4070860093C8DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7F45D301D4070860093C8DC;
+			remoteInfo = RGBSliders;
+		};
+		D7F45D511D4070860093C8DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7F45D291D4070860093C8DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7F45D301D4070860093C8DC;
+			remoteInfo = RGBSliders;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7F45D311D4070860093C8DC /* RGBSliders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RGBSliders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7F45D341D4070860093C8DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7F45D361D4070860093C8DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7F45D391D4070860093C8DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7F45D3B1D4070860093C8DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7F45D3E1D4070860093C8DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7F45D401D4070860093C8DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7F45D451D4070860093C8DC /* RGBSlidersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RGBSlidersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7F45D491D4070860093C8DC /* RGBSlidersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBSlidersTests.swift; sourceTree = "<group>"; };
+		D7F45D4B1D4070860093C8DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7F45D501D4070860093C8DC /* RGBSlidersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RGBSlidersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7F45D541D4070860093C8DC /* RGBSlidersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBSlidersUITests.swift; sourceTree = "<group>"; };
+		D7F45D561D4070860093C8DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7F45D2E1D4070860093C8DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7F45D421D4070860093C8DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7F45D4D1D4070860093C8DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7F45D281D4070860093C8DC = {
+			isa = PBXGroup;
+			children = (
+				D7F45D331D4070860093C8DC /* RGBSliders */,
+				D7F45D481D4070860093C8DC /* RGBSlidersTests */,
+				D7F45D531D4070860093C8DC /* RGBSlidersUITests */,
+				D7F45D321D4070860093C8DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7F45D321D4070860093C8DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7F45D311D4070860093C8DC /* RGBSliders.app */,
+				D7F45D451D4070860093C8DC /* RGBSlidersTests.xctest */,
+				D7F45D501D4070860093C8DC /* RGBSlidersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7F45D331D4070860093C8DC /* RGBSliders */ = {
+			isa = PBXGroup;
+			children = (
+				D7F45D341D4070860093C8DC /* AppDelegate.swift */,
+				D7F45D361D4070860093C8DC /* ViewController.swift */,
+				D7F45D381D4070860093C8DC /* Main.storyboard */,
+				D7F45D3B1D4070860093C8DC /* Assets.xcassets */,
+				D7F45D3D1D4070860093C8DC /* LaunchScreen.storyboard */,
+				D7F45D401D4070860093C8DC /* Info.plist */,
+			);
+			path = RGBSliders;
+			sourceTree = "<group>";
+		};
+		D7F45D481D4070860093C8DC /* RGBSlidersTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7F45D491D4070860093C8DC /* RGBSlidersTests.swift */,
+				D7F45D4B1D4070860093C8DC /* Info.plist */,
+			);
+			path = RGBSlidersTests;
+			sourceTree = "<group>";
+		};
+		D7F45D531D4070860093C8DC /* RGBSlidersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7F45D541D4070860093C8DC /* RGBSlidersUITests.swift */,
+				D7F45D561D4070860093C8DC /* Info.plist */,
+			);
+			path = RGBSlidersUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7F45D301D4070860093C8DC /* RGBSliders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7F45D591D4070860093C8DC /* Build configuration list for PBXNativeTarget "RGBSliders" */;
+			buildPhases = (
+				D7F45D2D1D4070860093C8DC /* Sources */,
+				D7F45D2E1D4070860093C8DC /* Frameworks */,
+				D7F45D2F1D4070860093C8DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RGBSliders;
+			productName = RGBSliders;
+			productReference = D7F45D311D4070860093C8DC /* RGBSliders.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7F45D441D4070860093C8DC /* RGBSlidersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7F45D5C1D4070860093C8DC /* Build configuration list for PBXNativeTarget "RGBSlidersTests" */;
+			buildPhases = (
+				D7F45D411D4070860093C8DC /* Sources */,
+				D7F45D421D4070860093C8DC /* Frameworks */,
+				D7F45D431D4070860093C8DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7F45D471D4070860093C8DC /* PBXTargetDependency */,
+			);
+			name = RGBSlidersTests;
+			productName = RGBSlidersTests;
+			productReference = D7F45D451D4070860093C8DC /* RGBSlidersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7F45D4F1D4070860093C8DC /* RGBSlidersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7F45D5F1D4070860093C8DC /* Build configuration list for PBXNativeTarget "RGBSlidersUITests" */;
+			buildPhases = (
+				D7F45D4C1D4070860093C8DC /* Sources */,
+				D7F45D4D1D4070860093C8DC /* Frameworks */,
+				D7F45D4E1D4070860093C8DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7F45D521D4070860093C8DC /* PBXTargetDependency */,
+			);
+			name = RGBSlidersUITests;
+			productName = RGBSlidersUITests;
+			productReference = D7F45D501D4070860093C8DC /* RGBSlidersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7F45D291D4070860093C8DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Eric Sarmiento";
+				TargetAttributes = {
+					D7F45D301D4070860093C8DC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					D7F45D441D4070860093C8DC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D7F45D301D4070860093C8DC;
+					};
+					D7F45D4F1D4070860093C8DC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D7F45D301D4070860093C8DC;
+					};
+				};
+			};
+			buildConfigurationList = D7F45D2C1D4070860093C8DC /* Build configuration list for PBXProject "RGBSliders" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7F45D281D4070860093C8DC;
+			productRefGroup = D7F45D321D4070860093C8DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7F45D301D4070860093C8DC /* RGBSliders */,
+				D7F45D441D4070860093C8DC /* RGBSlidersTests */,
+				D7F45D4F1D4070860093C8DC /* RGBSlidersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7F45D2F1D4070860093C8DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7F45D3F1D4070860093C8DC /* LaunchScreen.storyboard in Resources */,
+				D7F45D3C1D4070860093C8DC /* Assets.xcassets in Resources */,
+				D7F45D3A1D4070860093C8DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7F45D431D4070860093C8DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7F45D4E1D4070860093C8DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7F45D2D1D4070860093C8DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7F45D371D4070860093C8DC /* ViewController.swift in Sources */,
+				D7F45D351D4070860093C8DC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7F45D411D4070860093C8DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7F45D4A1D4070860093C8DC /* RGBSlidersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7F45D4C1D4070860093C8DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7F45D551D4070860093C8DC /* RGBSlidersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7F45D471D4070860093C8DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7F45D301D4070860093C8DC /* RGBSliders */;
+			targetProxy = D7F45D461D4070860093C8DC /* PBXContainerItemProxy */;
+		};
+		D7F45D521D4070860093C8DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7F45D301D4070860093C8DC /* RGBSliders */;
+			targetProxy = D7F45D511D4070860093C8DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7F45D381D4070860093C8DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7F45D391D4070860093C8DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7F45D3D1D4070860093C8DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7F45D3E1D4070860093C8DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7F45D571D4070860093C8DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7F45D581D4070860093C8DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7F45D5A1D4070860093C8DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RGBSliders/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bizappsmedia.RGBSliders;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D7F45D5B1D4070860093C8DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RGBSliders/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bizappsmedia.RGBSliders;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D7F45D5D1D4070860093C8DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RGBSlidersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bizappsmedia.RGBSlidersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RGBSliders.app/RGBSliders";
+			};
+			name = Debug;
+		};
+		D7F45D5E1D4070860093C8DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RGBSlidersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bizappsmedia.RGBSlidersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RGBSliders.app/RGBSliders";
+			};
+			name = Release;
+		};
+		D7F45D601D4070860093C8DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RGBSlidersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bizappsmedia.RGBSlidersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RGBSliders;
+			};
+			name = Debug;
+		};
+		D7F45D611D4070860093C8DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RGBSlidersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bizappsmedia.RGBSlidersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RGBSliders;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7F45D2C1D4070860093C8DC /* Build configuration list for PBXProject "RGBSliders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7F45D571D4070860093C8DC /* Debug */,
+				D7F45D581D4070860093C8DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7F45D591D4070860093C8DC /* Build configuration list for PBXNativeTarget "RGBSliders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7F45D5A1D4070860093C8DC /* Debug */,
+				D7F45D5B1D4070860093C8DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7F45D5C1D4070860093C8DC /* Build configuration list for PBXNativeTarget "RGBSlidersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7F45D5D1D4070860093C8DC /* Debug */,
+				D7F45D5E1D4070860093C8DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7F45D5F1D4070860093C8DC /* Build configuration list for PBXNativeTarget "RGBSlidersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7F45D601D4070860093C8DC /* Debug */,
+				D7F45D611D4070860093C8DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7F45D291D4070860093C8DC /* Project object */;
+}
